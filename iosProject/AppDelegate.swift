@@ -7,15 +7,21 @@
 //
 
 import UIKit
-
+import GooglePlaces
+import GooglePlacePicker
+import  GoogleMaps
+import Firebase
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate{
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        GMSPlacesClient.provideAPIKey("AIzaSyC_pYM3wBLMWS4MizsgU2_v6wdGXK9irnM")
+        GMSServices.provideAPIKey("AIzaSyC_pYM3wBLMWS4MizsgU2_v6wdGXK9irnM")
+        FirebaseApp.configure()
         return true
     }
 

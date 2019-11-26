@@ -2,10 +2,10 @@
 This application was built as a part of a group project for Semester 6 Advanced iOS development course at Sheridan College
 
 ## The group members were:
-* Saad Ahmad
-* Puneet Kaur
-* Surbhi Handa
-* Ankit Shah
+* Saad Ahmad (worked mainly on the iOS application, Firebase and UI design)
+* Puneet Kaur (worked mainly on the watchOS application and RDBMS)
+* Surbhi Handa (worked mainly on the tvOS application and PHP Scripts)
+* Ankit Shah (worked on the tvOS application)
 
 ## Application description:- 
 
